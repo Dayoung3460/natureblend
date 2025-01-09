@@ -5,7 +5,7 @@ This is an MES (Manufacturing Execution System) program designed for a beverage 
 
 ## Team Members  
 - **Hayeon** - Materials  
-- **Dayoung** - Production  
+- **Dayoung** - Production 👩
 - **Nayoon** - Sales
 - **Minkyoo** - Master Data  
 - **Sunyong** - Equipment  
@@ -34,4 +34,36 @@ This is an MES (Manufacturing Execution System) program designed for a beverage 
 ## System Architecture  
 ```plaintext
 Frontend (Vue.js) <--> Backend (Node.js, Express) <--> Database (MySQL)
+
+## How to Run
+
+### Prerequisites
+- Node.js and npm installed
+- MySQL server running
+
+### Steps
+1. **Clone the Repository**  
+   Clone the repository to your local machine using Git:  
+   ```bash
+   git clone https://github.com/yourusername/your-repository.git
+
+2. **Install Dependencies**
+# Backend
+cd server
+npm install
+
+# Frontend
+cd ../client
+npm install
+
+# Run the Backend Server
+cd backend
+npm run dev
+
+# Run the Frontend
+cd frontend
+npm run serve
+
+
+
 
