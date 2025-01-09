@@ -44,27 +44,26 @@ Frontend (Vue.js) <--> Backend (Node.js, Express) <--> Database (MySQL)
 
 ### Steps
 1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/Dayoung3460/natureblend.git
+    ```bash
+    git clone https://github.com/Dayoung3460/natureblend.git
   
 2. **Install Dependencies**
-  ```bash
-  # Backend
-  cd server
-  npm install
-  
-  # Frontend
-  cd ../client
-  npm install
-  
-  # Run the Backend Server
-  cd backend
-  npm run dev
-
-  # Run the Frontend
-  cd frontend
-  npm run serve
-  ```
+    ```bash
+    # Backend
+    cd server
+    npm install
+    
+    # Frontend
+    cd ../client
+    npm install
+    
+    # Run the Backend Server
+    cd backend
+    npm run dev
+    
+    # Run the Frontend
+    cd frontend
+    npm run serve
 
 
 
