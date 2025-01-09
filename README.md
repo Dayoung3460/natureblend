@@ -44,9 +44,8 @@ Frontend (Vue.js) <--> Backend (Node.js, Express) <--> Database (MySQL)
 
 ### Steps
 1. **Clone the Repository**  
-   Clone the repository to your local machine using Git:  
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/Dayoung3460/natureblend.git
   
 2. **Install Dependencies**
 ```bash
