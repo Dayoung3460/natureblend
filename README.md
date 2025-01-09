@@ -47,7 +47,7 @@ Frontend (Vue.js) <--> Backend (Node.js, Express) <--> Database (MySQL)
    Clone the repository to your local machine using Git:  
    ```bash
    git clone https://github.com/yourusername/your-repository.git
-  ```
+  
 2. **Install Dependencies**
 ```bash
 # Backend
