@@ -34,6 +34,7 @@ This is an MES (Manufacturing Execution System) program designed for a beverage 
 ## System Architecture  
 ```plaintext
 Frontend (Vue.js) <--> Backend (Node.js, Express) <--> Database (MySQL)
+```
 
 ## How to Run
 
