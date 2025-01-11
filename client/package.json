@@ -14,10 +14,10 @@
     "url": "git+https://github.com/creativetimofficial/ct-vue-material-dashboard-2.git"
   },
   "scripts": {
-    "dev": "vite",
+    "dev-client": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "commit": "cz"
+    "commit-client": "cz"
   },
   "dependencies": {
     "@ag-grid-community/core": "^32.3.3",
