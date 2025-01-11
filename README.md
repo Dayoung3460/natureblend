@@ -1,32 +1,69 @@
-# 프로젝트명 : NATUREBLEND
+# MES Program for Beverage Production Factory
 
-## 개요
-음료 생산 공장용 MES 프로그램
+## Overview
+This is an MES (Manufacturing Execution System) program designed for a beverage production factory.
 
-## 팀원
- - 표하연(조장) - 자재
- - 김다영(부조장) - 생산
- - 권나윤 - 영업, DB 관리
- - 서민교 - 기준 정보, vue 환경 구축
- - 김선용 - 설비, git 관리
- - 이신화 - 품질, node 환경 구축
+## Team Members
+- **Hayeon** - Materials
+- **Dayoung** - Production 👩
+- **Nayoon** - Sales
+- **Minkyoo** - Master Data
+- **Sunyong** - Equipment
+- **Sinhwa** - Quality
 
-## 개발 기간
- - 전체 개발 기간 : 2024.12.03 ~ 2025.01.09
+## Development Period
+- **Overall Development Period**: 2024.12.03 ~ 2025.01.09
+    - **Design Phase**: 2024.12.03 ~ 2024.12.11
+    - **Implementation Phase**: 2024.12.12 ~ 2024.12.27
+    - **Deployment and Testing**: 2024.12.30 ~ 2025.01.06
+    - **Presentation Preparation**: 2025.01.07 ~ 2025.01.08
+    - **Project Presentation**: 2025.01.09
 
- - 설계 기간 : 2024.12.03 ~ 2024.12.11
- - 구현 기간 : 2024.12.12 ~ 2024.12.27
- - 배포 및 테스트 : 2024.12.30 ~ 2025.01.06
- - 발표 준비 : 2025.01.07 ~ 2025.01.08
- - 프로젝트 발표 : 2025.01.09
+## Technologies Used
+- **Frontend**: Vue.js, AG Grid
+- **Backend**: Node.js, Express
+- **Database**: MySQL
+- **Deployment**: NAVER Cloud
+## Features
+- **Material Management**: Track raw materials and inventory.
+- **Production Planning**: Manage production schedules and processes.
+- **Quality Control**: Monitor and ensure product quality at every stage.
+- **Sales Management**: Handle orders and customer data.
+- **Equipment Management**: Maintain and monitor factory equipment.
 
+## System Architecture
+```plaintext
+Frontend (Vue.js) <--> Backend (Node.js, Express) <--> Database (MySQL)
+```
 
-## 커밋 메시지 형식
- - (이름 작업내용 월/일)
- - EX) 김선용 README.md 작성, GITHUB 병합 테스트 12/10
+## How to Run
 
+### Prerequisites
+- Node.js and npm installed
+- MySQL server running
 
+### Steps
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/Dayoung3460/natureblend.git
 
+2. **Install Dependencies**
+    ```bash
+    # Backend
+    cd server
+    npm install
+    
+    # Frontend
+    cd ../client
+    npm install
+    
+    # Run the Backend Server
+    cd backend
+    npm run dev
+    
+    # Run the Frontend
+    cd frontend
+    npm run serve
 
 
 
