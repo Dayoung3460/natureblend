@@ -1,6 +1,6 @@
 <template>
   <div id="app" v-if="loginPass" >
-    
+    {{ $t('hello') }}
     <sidenav
     :custom_class="color"
     class="fixed-start"
