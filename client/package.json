@@ -14,9 +14,10 @@
     "url": "git+https://github.com/creativetimofficial/ct-vue-material-dashboard-2.git"
   },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "cross-env CI=false cross-env PUBLIC_URL=/ vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "commit": "cz"
   },
   "dependencies": {
     "@ag-grid-community/core": "^32.3.3",
@@ -42,21 +43,87 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.22.15",
+    "@vitejs/plugin-vue": "^5.2.1",
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-plugin-router": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
     "@vue/compiler-sfc": "3.3.4",
     "@vue/eslint-config-prettier": "8.0.0",
+    "commitizen": "^4.3.1",
     "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "8.51.0",
     "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-vue": "9.17.0",
     "prettier": "3.0.3",
     "sass": "1.69.3",
-    "sass-loader": "13.3.2"
+    "sass-loader": "13.3.2",
+    "vite": "^6.0.7",
+    "vite-plugin-eslint": "^1.8.1"
   },
   "overrides": {
     "consolidate": "1.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog",
+      "disableScopeLowerCase": false,
+      "disableSubjectLowerCase": false,
+      "maxHeaderWidth": 100,
+      "maxLineWidth": 100,
+      "defaultType": "",
+      "defaultScope": "",
+      "defaultSubject": "",
+      "defaultBody": "",
+      "defaultIssues": "",
+      "types": {
+        "feat": {
+          "description": "A new feature",
+          "title": "Features"
+        },
+        "fix": {
+          "description": "A bug fix",
+          "title": "Bug Fixes"
+        },
+        "docs": {
+          "description": "Documentation only changes",
+          "title": "Documentation"
+        },
+        "style": {
+          "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)",
+          "title": "Styles"
+        },
+        "refactor": {
+          "description": "A code change that neither fixes a bug nor adds a feature",
+          "title": "Code Refactoring"
+        },
+        "perf": {
+          "description": "A code change that improves performance",
+          "title": "Performance Improvements"
+        },
+        "test": {
+          "description": "Adding missing tests or correcting existing tests",
+          "title": "Tests"
+        },
+        "ci": {
+          "description": "Changes to CI configuration files and scripts",
+          "title": "Continuous Integration"
+        },
+        "revert": {
+          "description": "Reverts a previous commit",
+          "title": "Reverts"
+        },
+        "design": {
+          "description": "Changes that affect the UI/UX design",
+          "title": "Design Changes"
+        },
+        "deps": {
+          "description": "Dependency updates",
+          "title": "Dependencies"
+        }
+      }
+
+    }
   }
 }

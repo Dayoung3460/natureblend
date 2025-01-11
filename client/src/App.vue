@@ -25,7 +25,7 @@
 
 </template>
 <script>
-import Sidenav from "./examples/Sidenav";
+import Sidenav from "./examples/Sidenav/index.vue";
 import { mapMutations, mapState } from "vuex";
 import AppHeader from './components/AppHeader.vue';
 import {Notifications} from "@kyvg/vue3-notification";
