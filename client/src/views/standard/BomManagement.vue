@@ -269,7 +269,7 @@
       async checkLogin(){
           this.loginInfo = this.$store.state.loginInfo;
           console.log('직업',this.loginInfo);
-          if(this.loginInfo.job === '관리자'){
+          if(this.loginInfo.job === 'Administrator'){
             console.log('성공');
           }else{
               this.$notify({ text: '관리자만 접속 가능합니다.', type: 'error' });
